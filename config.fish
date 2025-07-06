@@ -15,3 +15,5 @@ set -x PATH $PATH /home/pedro/.local/bin
 set -x PATH $PATH /usr/local/go/bin
 
 zoxide init fish | source
+
+source ~/.config/fish/functions/docker.fish
